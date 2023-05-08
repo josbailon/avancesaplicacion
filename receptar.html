@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="receptar.css" />
+    <meta charset="UTF-8">
+    <title>Recepción de documentos</title>
+  </head>
+  <body>
+    <h2>Recepción de documentos</h2>
+    <form id="documento-form" >
+      <label for="nombre-input">Nombre completo:</label>
+      <input type="text" id="nombre-input" name="nombre" required><br>
+
+      <label for="email-input">Correo electrónico:</label>
+      <input type="email" id="email-input" name="email" required><br>
+
+      <label for="documento-input">Nombre de documento:</label>
+      <input type="text" id="documento-input" name="documento" required><br>
+
+      <label for="archivo-input">Archivo adjunto:</label>
+      <input type="file" id="archivo-input" name="archivo" required><br>
+
+      <button type="submit" id="enviar-btn">Enviar</button>
+    </form>   
+  </body>
+</html>
